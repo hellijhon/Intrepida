@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "wireframes",
+      "runtimeExecutable": "/bin/sh",
+      "runtimeArgs": [
+        "-c",
+        "cd /private/tmp/claude-501/-Users-macbookpro-Documents-SITE-INTREPIDA/e4264644-0cfc-4ebe-9672-f18b2f6fc6c7/scratchpad/wf-preview && exec python3 -m http.server 8765"
+      ],
+      "port": 8765
+    },
+    {
+      "name": "site",
+      "runtimeExecutable": "/bin/sh",
+      "runtimeArgs": [
+        "-c",
+        "cd /private/tmp/claude-501/-Users-macbookpro-Documents-SITE-INTREPIDA/e4264644-0cfc-4ebe-9672-f18b2f6fc6c7/scratchpad/site-preview && exec python3 -m http.server 8770"
+      ],
+      "port": 8770
+    }
+  ]
+}

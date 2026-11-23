@@ -1,0 +1,440 @@
+{
+ "projetos": [
+  {
+   "n": 1,
+   "slug": "mirante-sao-lucas",
+   "nome": "Mirante São Lucas",
+   "cliente": "UNENCO",
+   "cidade": "Belo Horizonte",
+   "uf": "MG",
+   "estado": "Minas Gerais",
+   "unidades": "152",
+   "foto": true,
+   "baixa_res": false,
+   "relacionados": [
+    "Residencial Scharle",
+    "Alto Boa Vista",
+    "Alto Riviera"
+   ],
+   "title": "Mirante São Lucas – UNENCO, Belo Horizonte | Intrépida",
+   "meta": "Mirante São Lucas, da UNENCO, com 152 unidades em Belo Horizonte/MG. Veja o empreendimento e solicite orçamento para o seu projeto.",
+   "alt": "Vista aérea do Mirante São Lucas, torre residencial da UNENCO em Belo Horizonte/MG"
+  },
+  {
+   "n": 2,
+   "slug": "bosque-dos-ipes",
+   "nome": "Bosque dos Ipês",
+   "cliente": "RNI",
+   "cidade": "Campo Grande",
+   "uf": "MS",
+   "estado": "Mato Grosso do Sul",
+   "unidades": "142",
+   "foto": true,
+   "baixa_res": false,
+   "relacionados": [
+    "Smart Haus",
+    "Mirante São Lucas",
+    "Residencial Monte Carlo"
+   ],
+   "title": "Bosque dos Ipês – RNI, Campo Grande/MS | Intrépida",
+   "meta": "Bosque dos Ipês, da RNI, com 142 unidades em Campo Grande/MS. Veja o empreendimento e solicite orçamento para o seu projeto.",
+   "alt": "Vista aérea do Bosque dos Ipês em construção, empreendimento da RNI em Campo Grande/MS"
+  },
+  {
+   "n": 3,
+   "slug": "residencial-pacifico",
+   "nome": "Residencial Pacífico",
+   "cliente": "Vila Construtora",
+   "cidade": "Ribeirão das Neves",
+   "uf": "MG",
+   "estado": "Minas Gerais",
+   "unidades": "160",
+   "foto": true,
+   "baixa_res": false,
+   "relacionados": [
+    "Mirante São Lucas",
+    "Parque Lagoa dos Príncipes e Lagoa Nova",
+    "Residencial Vila Atlântico"
+   ],
+   "title": "Residencial Pacífico – Ribeirão das Neves | Intrépida",
+   "meta": "Residencial Pacífico, da Vila Construtora, com 160 unidades em Ribeirão das Neves/MG. Veja o empreendimento e solicite orçamento.",
+   "alt": "Vista aérea dos blocos do Residencial Pacífico, da Vila Construtora, em Ribeirão das Neves/MG"
+  },
+  {
+   "n": 4,
+   "slug": "parque-lagoa-dos-principes-e-lagoa-nova",
+   "nome": "Parque Lagoa dos Príncipes e Lagoa Nova",
+   "cliente": "MRV",
+   "cidade": "Lagoa Santa",
+   "uf": "MG",
+   "estado": "Minas Gerais",
+   "unidades": "256",
+   "foto": true,
+   "baixa_res": false,
+   "relacionados": [
+    "Residencial Vila Maria",
+    "Residencial Ville Luxemburgo",
+    "Residencial Pacífico"
+   ],
+   "title": "Parque Lagoa dos Príncipes e Lagoa Nova – MRV | Intrépida",
+   "meta": "Parque Lagoa dos Príncipes e Lagoa Nova, da MRV, com 256 unidades em Lagoa Santa/MG. Veja o empreendimento e solicite orçamento.",
+   "alt": "Blocos residenciais e estacionamento do Parque Lagoa dos Príncipes, da MRV, em Lagoa Santa/MG"
+  },
+  {
+   "n": 5,
+   "slug": "residencial-alta-vista",
+   "nome": "Residencial Alta Vista",
+   "cliente": "Quartzo",
+   "cidade": "Barueri",
+   "uf": "SP",
+   "estado": "São Paulo",
+   "unidades": "240",
+   "foto": true,
+   "baixa_res": false,
+   "relacionados": [
+    "Residencial Portal do Cerrado",
+    "California Residence",
+    "Mirante São Lucas"
+   ],
+   "title": "Residencial Alta Vista – Quartzo, Barueri | Intrépida",
+   "meta": "Residencial Alta Vista, da Quartzo, com 240 unidades em Barueri/SP. Veja o empreendimento e solicite orçamento para o seu projeto.",
+   "alt": "Vista aérea das torres do Residencial Alta Vista, da Quartzo, em Barueri/SP"
+  },
+  {
+   "n": 6,
+   "slug": "residencial-monte-carlo",
+   "nome": "Residencial Monte Carlo",
+   "cliente": "Habit Construtora",
+   "cidade": "Cabo Frio",
+   "uf": "RJ",
+   "estado": "Rio de Janeiro",
+   "unidades": "1.800",
+   "foto": true,
+   "baixa_res": true,
+   "relacionados": [
+    "Bosque dos Ipês",
+    "Residencial Alta Vista",
+    "Mirante São Lucas"
+   ],
+   "title": "Residencial Monte Carlo – Cabo Frio/RJ | Intrépida",
+   "meta": "Residencial Monte Carlo, da Habit Construtora, com 1.800 unidades em Cabo Frio/RJ. Veja o empreendimento e solicite orçamento.",
+   "alt": "Vista aérea do Residencial Monte Carlo, da Habit Construtora, em Cabo Frio/RJ"
+  },
+  {
+   "n": 7,
+   "slug": "residencial-vila-atlantico",
+   "nome": "Residencial Vila Atlântico",
+   "cliente": "Erglares",
+   "cidade": "Sabará",
+   "uf": "MG",
+   "estado": "Minas Gerais",
+   "unidades": "240",
+   "foto": true,
+   "baixa_res": false,
+   "relacionados": [
+    "Residencial Scharle",
+    "Residencial Pacífico",
+    "Mirante São Lucas"
+   ],
+   "title": "Residencial Vila Atlântico – Erglares, Sabará | Intrépida",
+   "meta": "Residencial Vila Atlântico, da Erglares, com 240 unidades em Sabará/MG. Veja o empreendimento e solicite orçamento para o seu projeto.",
+   "alt": "Vista aérea dos blocos do Residencial Vila Atlântico, da Erglares, em Sabará/MG"
+  },
+  {
+   "n": 8,
+   "slug": "residencial-vila-maria",
+   "nome": "Residencial Vila Maria",
+   "cliente": "Mello Azevedo",
+   "cidade": "Lagoa Santa",
+   "uf": "MG",
+   "estado": "Minas Gerais",
+   "unidades": "356",
+   "foto": true,
+   "baixa_res": false,
+   "relacionados": [
+    "Parque Lagoa dos Príncipes e Lagoa Nova",
+    "Residencial Ville Luxemburgo",
+    "Residencial Vila Atlântico"
+   ],
+   "title": "Residencial Vila Maria – Lagoa Santa/MG | Intrépida",
+   "meta": "Residencial Vila Maria, da Mello Azevedo, com 356 unidades em Lagoa Santa/MG. Veja o empreendimento e solicite orçamento.",
+   "alt": "Vista aérea do Residencial Vila Maria, da Mello Azevedo, com área de lazer e piscina, em Lagoa Santa/MG"
+  },
+  {
+   "n": 9,
+   "slug": "residencial-ville-luxemburgo",
+   "nome": "Residencial Ville Luxemburgo",
+   "cliente": "Precon",
+   "cidade": "Lagoa Santa",
+   "uf": "MG",
+   "estado": "Minas Gerais",
+   "unidades": "368",
+   "foto": true,
+   "baixa_res": true,
+   "relacionados": [
+    "Parque Lagoa dos Príncipes e Lagoa Nova",
+    "Residencial Vila Maria",
+    "Residencial Portal do Engenho"
+   ],
+   "title": "Residencial Ville Luxemburgo – Precon | Intrépida",
+   "meta": "Residencial Ville Luxemburgo, da Precon, com 368 unidades em Lagoa Santa/MG. Veja o empreendimento e solicite orçamento.",
+   "alt": "Blocos e área de lazer do Residencial Ville Luxemburgo, da Precon, em Lagoa Santa/MG"
+  },
+  {
+   "n": 10,
+   "slug": "residencial-portal-do-cerrado",
+   "nome": "Residencial Portal do Cerrado",
+   "cliente": "Quartzo",
+   "cidade": "Uberlândia",
+   "uf": "MG",
+   "estado": "Minas Gerais",
+   "unidades": "192",
+   "foto": true,
+   "baixa_res": true,
+   "relacionados": [
+    "Residencial Alta Vista",
+    "Residencial Portal do Engenho",
+    "Mirante São Lucas"
+   ],
+   "title": "Residencial Portal do Cerrado – Uberlândia | Intrépida",
+   "meta": "Residencial Portal do Cerrado, da Quartzo, com 192 unidades em Uberlândia/MG. Veja o empreendimento e solicite orçamento.",
+   "alt": "Blocos do Residencial Portal do Cerrado, da Quartzo, com reservatório elevado, em Uberlândia/MG"
+  },
+  {
+   "n": 11,
+   "slug": "residencial-scharle",
+   "nome": "Residencial Scharle",
+   "cliente": "UNENCO",
+   "cidade": "Sabará",
+   "uf": "MG",
+   "estado": "Minas Gerais",
+   "unidades": "240",
+   "foto": true,
+   "baixa_res": true,
+   "relacionados": [
+    "Mirante São Lucas",
+    "Residencial Vila Atlântico",
+    "Residencial Pacífico"
+   ],
+   "title": "Residencial Scharle – UNENCO, Sabará | Intrépida",
+   "meta": "Residencial Scharle, da UNENCO, com 240 unidades em Sabará/MG. Veja o empreendimento e solicite orçamento para o seu projeto.",
+   "alt": "Vista aérea do Residencial Scharle, da UNENCO, com blocos, estacionamento e quadra, em Sabará/MG"
+  },
+  {
+   "n": 12,
+   "slug": "residencial-portal-do-engenho",
+   "nome": "Residencial Portal do Engenho",
+   "cliente": "Prix Construtora",
+   "cidade": "Itaúna",
+   "uf": "MG",
+   "estado": "Minas Gerais",
+   "unidades": "208",
+   "foto": true,
+   "baixa_res": false,
+   "relacionados": [
+    "Alto Boa Vista",
+    "Alto Riviera",
+    "Residencial Portal do Cerrado"
+   ],
+   "title": "Residencial Portal do Engenho – Itaúna/MG | Intrépida",
+   "meta": "Residencial Portal do Engenho, da Prix Construtora, com 208 unidades em Itaúna/MG. Veja o empreendimento e solicite orçamento.",
+   "alt": "Vista aérea do Residencial Portal do Engenho, da Prix Construtora, em Itaúna/MG"
+  },
+  {
+   "n": 13,
+   "slug": "alto-boa-vista",
+   "nome": "Alto Boa Vista",
+   "cliente": "Prix Engenharia",
+   "cidade": "Belo Horizonte",
+   "uf": "MG",
+   "estado": "Minas Gerais",
+   "unidades": "236",
+   "foto": false,
+   "baixa_res": false,
+   "relacionados": [
+    "Alto Riviera",
+    "Residencial Portal do Engenho",
+    "Mirante São Lucas"
+   ],
+   "title": "Alto Boa Vista – Belo Horizonte/MG | Intrépida",
+   "meta": "Alto Boa Vista, da Prix Engenharia, com 236 unidades em Belo Horizonte/MG. Veja o empreendimento e solicite orçamento.",
+   "alt": null
+  },
+  {
+   "n": 14,
+   "slug": "alto-riviera",
+   "nome": "Alto Riviera",
+   "cliente": "Prix Engenharia",
+   "cidade": "Belo Horizonte",
+   "uf": "MG",
+   "estado": "Minas Gerais",
+   "unidades": "157",
+   "foto": false,
+   "baixa_res": false,
+   "relacionados": [
+    "Alto Boa Vista",
+    "Residencial Portal do Engenho",
+    "Mirante São Lucas"
+   ],
+   "title": "Alto Riviera – Belo Horizonte/MG | Intrépida",
+   "meta": "Alto Riviera, da Prix Engenharia, com 157 unidades em Belo Horizonte/MG. Veja o empreendimento e solicite orçamento.",
+   "alt": null
+  },
+  {
+   "n": 15,
+   "slug": "gran-vic-gama",
+   "nome": "Gran Vic Gama",
+   "cliente": "VIC",
+   "cidade": "Brasília",
+   "uf": "DF",
+   "estado": "Distrito Federal",
+   "unidades": "236",
+   "foto": false,
+   "baixa_res": false,
+   "relacionados": [
+    "Alto Sobradinho",
+    "Mirante São Lucas",
+    "Residencial Monte Carlo"
+   ],
+   "title": "Gran Vic Gama – VIC, Brasília/DF | Intrépida",
+   "meta": "Gran Vic Gama, da VIC, com 236 unidades em Brasília/DF. Veja o empreendimento e solicite orçamento para o seu projeto de instalações.",
+   "alt": null
+  },
+  {
+   "n": 16,
+   "slug": "alto-sobradinho",
+   "nome": "Alto Sobradinho",
+   "cliente": "Direcional Engenharia",
+   "cidade": "Sobradinho",
+   "uf": "DF",
+   "estado": "Distrito Federal",
+   "unidades": "344",
+   "foto": false,
+   "baixa_res": false,
+   "relacionados": [
+    "Gran Vic Gama",
+    "Mirante São Lucas",
+    "Bosque dos Ipês"
+   ],
+   "title": "Alto Sobradinho – Direcional, Sobradinho/DF | Intrépida",
+   "meta": "Alto Sobradinho, da Direcional Engenharia, com 344 unidades em Sobradinho/DF. Veja o empreendimento e solicite orçamento.",
+   "alt": null
+  },
+  {
+   "n": 17,
+   "slug": "smart-haus",
+   "nome": "Smart Haus",
+   "cliente": "RNI",
+   "cidade": "Blumenau",
+   "uf": "SC",
+   "estado": "Santa Catarina",
+   "unidades": "333",
+   "foto": false,
+   "baixa_res": false,
+   "relacionados": [
+    "Bosque dos Ipês",
+    "Residencial Monte Carlo",
+    "Residencial Alta Vista"
+   ],
+   "title": "Smart Haus – RNI, Blumenau/SC | Intrépida",
+   "meta": "Smart Haus, da RNI, com 333 unidades em Blumenau/SC. Veja o empreendimento e solicite orçamento para o seu projeto de instalações.",
+   "alt": null
+  },
+  {
+   "n": 18,
+   "slug": "california-residence",
+   "nome": "California Residence",
+   "cliente": "Vitta",
+   "cidade": "Marília",
+   "uf": "SP",
+   "estado": "São Paulo",
+   "unidades": "214",
+   "foto": false,
+   "baixa_res": false,
+   "relacionados": [
+    "Residencial Alta Vista",
+    "Mirante São Lucas",
+    "Bosque dos Ipês"
+   ],
+   "title": "California Residence – Vitta, Marília/SP | Intrépida",
+   "meta": "California Residence, da Vitta, com 214 unidades em Marília/SP. Veja o empreendimento e solicite orçamento para o seu projeto.",
+   "alt": null
+  }
+ ],
+ "bim": [
+  {
+   "n": 1,
+   "legenda": "Shaft hidráulico com hidrômetros individuais",
+   "confirmar": false,
+   "alt": "Modelo BIM 3D de shaft hidráulico com prumadas de água e hidrômetros individuais por unidade"
+  },
+  {
+   "n": 2,
+   "legenda": "Casa de bombas com conjunto motobomba",
+   "confirmar": true,
+   "alt": "Modelo BIM 3D de casa de bombas com duas motobombas e tubulações de sucção e recalque"
+  },
+  {
+   "n": 3,
+   "legenda": "Ramais de água fria e água quente",
+   "confirmar": false,
+   "alt": "Modelo BIM 3D de ramais de água fria e água quente em banheiro, com diâmetros indicados"
+  },
+  {
+   "n": 4,
+   "legenda": "Esgoto sanitário e ventilação de banheiro",
+   "confirmar": false,
+   "alt": "Modelo BIM 3D das tubulações de esgoto sanitário e ventilação de um banheiro"
+  },
+  {
+   "n": 5,
+   "legenda": "Instalações de uma unidade, por sistema",
+   "confirmar": true,
+   "alt": "Modelo BIM 3D com tubulações de esgoto, ventilação e água de uma unidade residencial, em cores por sistema"
+  },
+  {
+   "n": 6,
+   "legenda": "Prumada e abrigo de medidores em shaft",
+   "confirmar": true,
+   "alt": "Modelo BIM 3D de shaft com prumada de tubulação e abrigo de medidores"
+  },
+  {
+   "n": 7,
+   "legenda": "Quadro de distribuição elétrica",
+   "confirmar": false,
+   "alt": "Modelo BIM 3D de quadro de distribuição elétrica com disjuntores identificados"
+  },
+  {
+   "n": 8,
+   "legenda": "Rede de distribuição no pavimento",
+   "confirmar": true,
+   "alt": "Modelo BIM 3D de rede de tubulações distribuída pelo pavimento, com pontos de consumo numerados"
+  }
+ ],
+ "clientes": [
+  "Precon Engenharia",
+  "MRV",
+  "Direcional",
+  "Tenda",
+  "Riva Incorporadora",
+  "RNI",
+  "VIC Engenharia",
+  "Patrimar",
+  "Novolar",
+  "Quartzo Incorporadora",
+  "Erglares Engenharia",
+  "RRX Incorporações",
+  "Prix Construtora",
+  "Mello Azevedo",
+  "Vitta Residencial",
+  "MCP Realty",
+  "CTE – Centro de Tecnologia de Edificações",
+  "Gabbai Empreendimentos",
+  "UNENCO",
+  "BRZ Empreendimentos",
+  "Vila Construtora",
+  "Chandon",
+  "Center Norte",
+  "Cataguá Construtora"
+ ]
+}

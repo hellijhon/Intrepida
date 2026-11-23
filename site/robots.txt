@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /obrigado/
+Disallow: /_build/
+Sitemap: https://intrepidaengenharia.com.br/sitemap.xml

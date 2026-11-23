@@ -1,0 +1,16 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Configurações locais do Claude Code
+.claude/settings.local.json
+
+# Fontes Colaborate: sem licença para uso web/redistribuição confirmada
+equipe/marca/fontes/
+
+# Pacote .zip do protótipo (gerado a partir de site/)
+entrega-cliente/*.zip
+
+# Python
+__pycache__/
+*.pyc

@@ -1,0 +1,713 @@
+[
+ {
+  "slug": "projeto-hidrossanitario",
+  "title": "Projeto hidrossanitário em BH | Intrépida Engenharia",
+  "meta": "Projeto hidrossanitário para incorporadoras: água fria e quente, esgoto, pluviais e medição individualizada, em 2D ou BIM. Solicite orçamento.",
+  "param": "hidrossanitario",
+  "eyebrow": "Instalações prediais",
+  "h1": "Projeto hidrossanitário para incorporadoras e construtoras",
+  "sub": "Água fria e quente, esgoto, ventilação, águas pluviais e medição individualizada, dimensionados e compatibilizados para a análise da concessionária e para a obra.",
+  "cta": "Solicitar orçamento de projeto hidrossanitário",
+  "hero_img": 1,
+  "hero_alt_ilustr": null,
+  "entregas_h2": "O que entregamos",
+  "entregas_intro": "O projeto completo dos sistemas hidráulicos e sanitários do edifício:",
+  "entregas": [
+   "Água fria e água quente: alimentação, reservatórios, barrilete, prumadas e ramais",
+   "Medição individualizada de água por unidade",
+   "Esgoto sanitário e ventilação",
+   "Águas pluviais: calhas, condutores e destinação",
+   "Sistemas de recalque e pressurização de água, quando necessários",
+   "Memorial descritivo e de cálculo, plantas, cortes, isométricos e detalhes",
+   "Lista de materiais e quantitativos",
+   "ART do projeto e, quando contratado, modelo BIM"
+  ],
+  "quem_h2": "Para quem é e quando contratar",
+  "quem": [
+   {
+    "t": "Residencial multifamiliar",
+    "d": "Indispensável para construir e para pedir as ligações de água e esgoto. Contrate junto com a arquitetura: shafts, reservatórios e casa de bombas mudam área e fachada."
+   },
+   {
+    "t": "Loteamento e condomínio",
+    "d": "Casas e áreas comuns precisam de projeto próprio, integrado às redes de infraestrutura do condomínio. Contrate junto com o projeto das redes."
+   },
+   {
+    "t": "Comercial e residência",
+    "d": "Lojas, clínicas e casas também precisam de projeto, principalmente com água quente, piscina ou reúso. Quanto antes, menos parede quebrada na obra."
+   }
+  ],
+  "normas_h2": "Normas e aprovações",
+  "normas_txt": "O projeto segue as normas da ABNT e os padrões da concessionária de saneamento do município, que analisa as ligações de água e esgoto e a medição individualizada.",
+  "normas": [
+   "ABNT NBR 5626 — sistemas prediais de água fria e água quente",
+   "ABNT NBR 8160 — sistemas prediais de esgoto sanitário",
+   "ABNT NBR 10844 — instalações prediais de águas pluviais",
+   "Lei federal 13.312/2016 — medição individualizada de água em novas edificações em condomínio"
+  ],
+  "orgaos": "Companhia de saneamento do município (em Minas Gerais, a COPASA, na maior parte das cidades)",
+  "integracao": null,
+  "bim_h2": "Projeto hidrossanitário em BIM",
+  "bim_txt": "No modelo 3D, cada prumada, ramal e caixa é posicionado junto com a estrutura e as outras disciplinas. Os conflitos aparecem antes da obra, e os quantitativos saem do próprio modelo.",
+  "bim_imgs": [
+   1,
+   4
+  ],
+  "bim_raw": "13.2, imagens 1 e 4.",
+  "faq_h2": "Perguntas sobre projeto hidrossanitário",
+  "faq": [
+   {
+    "q": "O que é um projeto hidrossanitário e quando ele é necessário?",
+    "a": "É o projeto que define como a água chega a cada ponto de uso e como o esgoto e a água de chuva saem do edifício. Ele é necessário para executar a obra com segurança e para pedir as ligações de água e esgoto à concessionária.",
+    "link": null
+   },
+   {
+    "q": "O que é medição individualizada de água?",
+    "a": "É um hidrômetro por unidade, para que cada morador pague o próprio consumo. Em novas edificações em condomínio, a medição individualizada é exigida pela Lei 13.312/2016 e precisa estar prevista no projeto.",
+    "link": null
+   },
+   {
+    "q": "Quanto tempo leva o projeto?",
+    "a": "Depende do número de unidades, dos pavimentos e da fase em que está a arquitetura. O prazo de cada etapa vem descrito na proposta.",
+    "link": null
+   },
+   {
+    "q": "O que preciso enviar para o orçamento?",
+    "a": "A arquitetura (plantas, cortes e implantação) em DWG, PDF ou RVT, o número de unidades e de pavimentos e, se já tiver, a estrutura e a carta de viabilidade da concessionária.",
+    "link": null
+   },
+   {
+    "q": "Vocês acompanham a aprovação na concessionária?",
+    "a": "O projeto é preparado nos padrões exigidos pela concessionária. Como funcionam o protocolo e o acompanhamento da análise no seu caso fica definido na proposta.",
+    "link": null
+   }
+  ],
+  "outros_h2": "Outros projetos de instalações prediais",
+  "outros_raw": "Elétrica e Sistemas · Gás · Climatização (HVAC) · Pressurização de escadas · Piscina",
+  "cta_h2": "Orçamento de projeto hidrossanitário"
+ },
+ {
+  "slug": "projeto-eletrico",
+  "title": "Projeto elétrico e de sistemas em BH | Intrépida",
+  "meta": "Projeto elétrico para edifícios: entrada de energia, medição, quadros, iluminação e sistemas prediais, em 2D ou BIM, para incorporadoras. Peça orçamento.",
+  "param": "eletrica",
+  "eyebrow": "Instalações prediais",
+  "h1": "Projeto elétrico e de sistemas para edifícios residenciais e comerciais",
+  "sub": "Da entrada de energia à última tomada: medição, quadros, iluminação e sistemas prediais, calculados para a aprovação na distribuidora de energia.",
+  "cta": "Solicitar orçamento de projeto elétrico",
+  "hero_img": 7,
+  "hero_alt_ilustr": null,
+  "entregas_h2": "O que entregamos",
+  "entregas_intro": "Do ponto de ligação da distribuidora até cada circuito das unidades e das áreas comuns:",
+  "entregas": [
+   "Entrada de energia e padrão de medição, com agrupamento de medidores",
+   "Cálculo de demanda e dimensionamento de alimentadores",
+   "Quadros de distribuição com diagramas unifilares",
+   "Iluminação e tomadas das unidades e das áreas comuns",
+   "Aterramento",
+   "Sistemas prediais",
+   "Memorial descritivo e de cálculo, plantas, detalhes e quantitativos",
+   "ART do projeto e, quando contratado, modelo BIM"
+  ],
+  "quem_h2": "Para quem é e quando contratar",
+  "quem": [
+   {
+    "t": "Residencial multifamiliar",
+    "d": "Exigido para a ligação de energia pela distribuidora. Define a área do quadro de medidores e dos shafts, por isso deve começar junto com a arquitetura."
+   },
+   {
+    "t": "Loteamento e condomínio",
+    "d": "Projeto das casas e das áreas comuns, coordenado com a infraestrutura do condomínio."
+   },
+   {
+    "t": "Comercial e residência",
+    "d": "Lojas, salas e clínicas têm cargas específicas, como equipamentos e ar-condicionado. O projeto evita disjuntor desarmando e reforma depois da inauguração."
+   }
+  ],
+  "normas_h2": "Normas e aprovações",
+  "normas_txt": "A distribuidora de energia analisa a entrada, a medição e a demanda do empreendimento conforme as normas técnicas dela. O restante da instalação segue as normas da ABNT.",
+  "normas": [
+   "ABNT NBR 5410 — instalações elétricas de baixa tensão",
+   "Normas de fornecimento da distribuidora de energia (em Minas Gerais, as normas da CEMIG)"
+  ],
+  "orgaos": "Distribuidora de energia (em Minas Gerais, a CEMIG) e concessionárias de telecomunicações",
+  "integracao": null,
+  "bim_h2": "Projeto elétrico em BIM",
+  "bim_txt": "Quadros, eletrocalhas e eletrodutos entram no modelo 3D junto com a estrutura, a hidráulica e o forro. Passagens e espaços técnicos ficam definidos antes da obra.",
+  "bim_imgs": [
+   7
+  ],
+  "bim_raw": "13.2, imagem 7.",
+  "faq_h2": "Perguntas sobre projeto elétrico",
+  "faq": [
+   {
+    "q": "O que é o projeto elétrico e de sistemas?",
+    "a": "É o projeto que define como a energia chega ao edifício e se distribui até cada ponto de luz e tomada. Quando contratado, inclui também os sistemas prediais. A distribuidora exige o projeto para fazer a ligação.",
+    "link": null
+   },
+   {
+    "q": "O que a distribuidora de energia analisa?",
+    "a": "A entrada de energia, o padrão de medição e a demanda calculada do empreendimento, conforme as normas dela. Um erro nessa parte atrasa a ligação.",
+    "link": null
+   },
+   {
+    "q": "Quais sistemas entram em \"Sistemas\"?",
+    "a": "O escopo de sistemas prediais é definido na proposta, conforme o empreendimento.",
+    "link": null
+   },
+   {
+    "q": "O que preciso enviar para o orçamento?",
+    "a": "A arquitetura em DWG, PDF ou RVT, o número de unidades e a lista de equipamentos especiais, se houver: elevadores, bombas, ar-condicionado, carregadores de veículos.",
+    "link": null
+   }
+  ],
+  "outros_h2": "Outros projetos de instalações prediais",
+  "outros_raw": "Hidrossanitário · Gás · Climatização (HVAC) · Pressurização de escadas · Piscina",
+  "cta_h2": "Orçamento de projeto elétrico e de sistemas"
+ },
+ {
+  "slug": "projeto-de-gas",
+  "title": "Projeto de gás natural e GLP em BH | Intrépida",
+  "meta": "Projeto de gás para edifícios e condomínios: rede interna de gás natural ou GLP, medição e ventilação dos ambientes, em 2D ou BIM. Solicite orçamento.",
+  "param": "gas",
+  "eyebrow": "Instalações prediais",
+  "h1": "Projeto de gás para edifícios residenciais e comerciais",
+  "sub": "Rede interna de gás natural ou GLP, com prumadas, medição e ventilação dos ambientes calculadas para a aprovação na distribuidora e o uso seguro.",
+  "cta": "Solicitar orçamento de projeto de gás",
+  "hero_img": 8,
+  "hero_alt_ilustr": null,
+  "entregas_h2": "O que entregamos",
+  "entregas_intro": "Do ponto de entrega do gás até cada aparelho:",
+  "entregas": [
+   "Rede de distribuição interna: prumadas e ramais",
+   "Medição individual e abrigo de medidores",
+   "Central de GLP, quando não há gás canalizado na rua",
+   "Dimensionamento pela potência dos aparelhos previstos",
+   "Verificação da ventilação dos ambientes com aparelhos a gás",
+   "Memorial, plantas, isométricos, detalhes e quantitativos",
+   "ART do projeto e, quando contratado, modelo BIM"
+  ],
+  "quem_h2": "Para quem é e quando contratar",
+  "quem": [
+   {
+    "t": "Residencial multifamiliar",
+    "d": "Necessário para ligar o gás canalizado ou instalar a central de GLP. Define abrigos, prumadas e shafts ventilados, que precisam estar na arquitetura."
+   },
+   {
+    "t": "Loteamento e condomínio",
+    "d": "Ramais das casas e, quando houver, a rede interna do condomínio até o ponto de entrega da distribuidora."
+   },
+   {
+    "t": "Comercial e residência",
+    "d": "Restaurantes, cozinhas profissionais e casas com aquecedor ou fogão a gás precisam de projeto para instalar com segurança."
+   }
+  ],
+  "normas_h2": "Normas e aprovações",
+  "normas_txt": "A distribuidora de gás canalizado analisa o projeto antes da ligação. Centrais de GLP seguem também as regras do Corpo de Bombeiros do estado.",
+  "normas": [
+   "ABNT NBR 15526 — redes de distribuição interna para gases combustíveis",
+   "ABNT NBR 13103 — instalação de aparelhos a gás e adequação dos ambientes",
+   "ABNT NBR 13523 — central de gás liquefeito de petróleo (GLP)"
+  ],
+  "orgaos": "Distribuidora de gás canalizado (em Minas Gerais, a Gasmig) e Corpo de Bombeiros, no caso de centrais de GLP",
+  "integracao": null,
+  "bim_h2": "Projeto de gás em BIM",
+  "bim_txt": "Prumadas e ramais de gás modelados com as demais disciplinas. Os afastamentos de segurança em relação à elétrica e a outras tubulações ficam visíveis e conferidos no modelo.",
+  "bim_imgs": [],
+  "bim_raw": "",
+  "faq_h2": "Perguntas sobre projeto de gás",
+  "faq": [
+   {
+    "q": "O que é um projeto de gás e quando ele é necessário?",
+    "a": "É o projeto da rede que leva o gás do medidor ou da central até cada aparelho. A distribuidora exige o projeto para ligar o gás canalizado, e ele é a base de uma instalação segura.",
+    "link": null
+   },
+   {
+    "q": "Gás natural ou GLP: qual escolher?",
+    "a": "Depende de haver rede de gás canalizado na rua do empreendimento. Sem rede, a solução usual é a central de GLP. O projeto pode deixar a instalação pronta para uma conversão futura.",
+    "link": null
+   },
+   {
+    "q": "Por que a ventilação dos ambientes entra no projeto?",
+    "a": "Aparelhos a gás precisam de ar para queimar com segurança e de saída para os gases da combustão. A norma define aberturas mínimas, e isso afeta a arquitetura.",
+    "link": null
+   },
+   {
+    "q": "O que preciso enviar para o orçamento?",
+    "a": "A arquitetura em DWG, PDF ou RVT, o número de unidades e os aparelhos previstos (fogão, aquecedor, churrasqueira a gás), além da informação de se há gás canalizado na rua.",
+    "link": null
+   }
+  ],
+  "outros_h2": "Outros projetos de instalações prediais",
+  "outros_raw": "Hidrossanitário · Elétrica e Sistemas · Climatização (HVAC) · Pressurização de escadas · Piscina",
+  "cta_h2": "Orçamento de projeto de gás"
+ },
+ {
+  "slug": "climatizacao-hvac",
+  "title": "Projeto de climatização HVAC em BH | Intrépida",
+  "meta": "Projeto de ar-condicionado, ventilação e exaustão para edifícios residenciais e comerciais, com carga térmica calculada, em 2D ou BIM. Peça orçamento.",
+  "param": "hvac",
+  "eyebrow": "Instalações prediais",
+  "h1": "Projeto de climatização (HVAC) para edifícios residenciais e comerciais",
+  "sub": "Ar-condicionado, ventilação e exaustão dimensionados pela carga térmica de cada ambiente, com o espaço de equipamentos e dutos resolvido antes da obra.",
+  "cta": "Solicitar orçamento de projeto de climatização",
+  "hero_img": null,
+  "hero_alt_ilustr": "Ilustração de dutos e equipamento de ar-condicionado (imagem ilustrativa)",
+  "entregas_h2": "O que entregamos",
+  "entregas_intro": "Conforto térmico e qualidade do ar, com o espaço técnico previsto:",
+  "entregas": [
+   "Cálculo de carga térmica por ambiente",
+   "Definição do sistema: split, multi-split, VRF ou central",
+   "Ventilação e renovação de ar",
+   "Exaustão mecânica de banheiros sem janela, cozinhas e garagens",
+   "Infraestrutura para ar-condicionado nas unidades: drenos, pontos de força e posição das condensadoras",
+   "Memorial, plantas, detalhes e quantitativos",
+   "ART do projeto e, quando contratado, modelo BIM"
+  ],
+  "quem_h2": "Para quem é e quando contratar",
+  "quem": [
+   {
+    "t": "Residencial multifamiliar",
+    "d": "Prever drenos, pontos de força e o lugar das condensadoras evita fachada improvisada e reforma depois da entrega. Contrate junto com a arquitetura."
+   },
+   {
+    "t": "Áreas comuns de condomínios",
+    "d": "Salão de festas, academia e espaços de convivência, com conforto e renovação de ar adequados ao uso."
+   },
+   {
+    "t": "Comercial e corporativo",
+    "d": "Lojas, escritórios, clínicas e restaurantes, em que o conforto e a renovação do ar fazem parte do funcionamento."
+   }
+  ],
+  "normas_h2": "Normas e integração com outras disciplinas",
+  "normas_txt": "Climatização não passa por concessionária, mas pesa no projeto elétrico: a carga dos equipamentos entra no cálculo de demanda do edifício. Por isso as duas disciplinas andam juntas.",
+  "normas": [
+   "ABNT NBR 16401 — instalações de ar-condicionado: sistemas centrais e unitários",
+   "ABNT NBR 14518 — sistemas de ventilação para cozinhas industriais"
+  ],
+  "orgaos": null,
+  "integracao": null,
+  "bim_h2": "Climatização em BIM",
+  "bim_txt": "Dutos ocupam o forro e cruzam com todas as outras disciplinas. No modelo, a altura do forro e as passagens em vigas ficam definidas antes da obra.",
+  "bim_imgs": [],
+  "bim_raw": "",
+  "faq_h2": "Perguntas sobre projeto de climatização",
+  "faq": [
+   {
+    "q": "O que significa HVAC?",
+    "a": "É a sigla em inglês para aquecimento, ventilação e ar-condicionado. O projeto define os equipamentos, a ventilação e a exaustão de cada ambiente.",
+    "link": null
+   },
+   {
+    "q": "Preciso de projeto só para instalar aparelhos split?",
+    "a": "Em um edifício, sim. O projeto define a posição das condensadoras, os drenos e a carga elétrica de todas as unidades, e evita improviso na fachada e nos quadros.",
+    "link": null
+   },
+   {
+    "q": "Garagem em subsolo precisa de exaustão mecânica?",
+    "a": "Depende da ventilação natural disponível e da legislação local. O projeto verifica a necessidade e dimensiona o sistema quando ele for exigido.",
+    "link": null
+   },
+   {
+    "q": "O que preciso enviar para o orçamento?",
+    "a": "A arquitetura em DWG, PDF ou RVT, o uso de cada ambiente e o padrão de climatização desejado (unidades preparadas para split, sistema central, só áreas comuns).",
+    "link": null
+   }
+  ],
+  "outros_h2": "Outros projetos de instalações prediais",
+  "outros_raw": "Hidrossanitário · Elétrica e Sistemas · Gás · Pressurização de escadas · Piscina",
+  "cta_h2": "Orçamento de projeto de climatização"
+ },
+ {
+  "slug": "pressurizacao-de-escadas",
+  "title": "Projeto de pressurização de escadas | Intrépida",
+  "meta": "Projeto de pressurização de escadas de emergência: cálculo de vazão, ventiladores e dutos, conforme a NBR 14880 e o Corpo de Bombeiros. Peça orçamento.",
+  "param": "pressurizacao",
+  "eyebrow": "Instalações prediais",
+  "h1": "Projeto de pressurização de escadas de emergência",
+  "sub": "Sistema que mantém a escada livre de fumaça durante um incêndio, dimensionado conforme a norma e as exigências do Corpo de Bombeiros.",
+  "cta": "Solicitar orçamento de pressurização de escadas",
+  "hero_img": null,
+  "hero_alt_ilustr": "Ilustração de ventilador e dutos de um sistema de pressurização (imagem ilustrativa)",
+  "entregas_h2": "O que entregamos",
+  "entregas_intro": "O sistema completo, da tomada de ar à escada:",
+  "entregas": [
+   "Cálculo de vazão e pressão da escada",
+   "Seleção do ventilador e do grupo de pressurização",
+   "Dutos, grelhas e dampers",
+   "Tomada de ar externo protegida contra fumaça",
+   "Lógica de acionamento integrada ao sistema de alarme de incêndio",
+   "Interface com a elétrica: alimentação de emergência do ventilador",
+   "Memorial, plantas, detalhes e quantitativos",
+   "ART do projeto e, quando contratado, modelo BIM"
+  ],
+  "quem_h2": "Para quem é e quando contratar",
+  "quem": [
+   {
+    "t": "Residencial multifamiliar",
+    "d": "Em edifícios mais altos, a escada pressurizada costuma ser exigida pela regulamentação do Corpo de Bombeiros do estado."
+   },
+   {
+    "t": "Comercial e uso misto",
+    "d": "A exigência depende da altura e da ocupação do edifício. O projeto confirma o enquadramento antes de dimensionar."
+   },
+   {
+    "t": "Fase certa",
+    "d": "No início da arquitetura. A casa do ventilador e o trajeto dos dutos ocupam área e precisam de espaço em todos os pavimentos."
+   }
+  ],
+  "normas_h2": "Normas e aprovações",
+  "normas_txt": "A pressurização faz parte do processo de segurança contra incêndio do edifício, analisado pelo Corpo de Bombeiros do estado.",
+  "normas": [
+   "ABNT NBR 14880 — saídas de emergência em edifícios: escadas de segurança, controle de fumaça por pressurização",
+   "Instruções técnicas do Corpo de Bombeiros do estado"
+  ],
+  "orgaos": "Corpo de Bombeiros Militar do estado (em Minas Gerais, o CBMMG)",
+  "integracao": null,
+  "bim_h2": "Pressurização em BIM",
+  "bim_txt": "Os dutos de pressurização são grandes e atravessam vários pavimentos. No modelo, o trajeto é compatibilizado com a estrutura e as demais instalações antes da obra.",
+  "bim_imgs": [],
+  "bim_raw": "",
+  "faq_h2": "Perguntas sobre pressurização de escadas",
+  "faq": [
+   {
+    "q": "O que é pressurização de escadas?",
+    "a": "É um sistema de ventiladores que injeta ar na escada de emergência e mantém nela uma pressão maior que a dos andares. Assim a fumaça não entra, e a escada continua segura para a saída das pessoas.",
+    "link": null
+   },
+   {
+    "q": "Meu edifício precisa de escada pressurizada?",
+    "a": "Depende da altura, da ocupação e da regulamentação do Corpo de Bombeiros do estado. Envie a arquitetura e verificamos a exigência.",
+    "link": null
+   },
+   {
+    "q": "Quem aprova o sistema?",
+    "a": "O Corpo de Bombeiros, dentro do processo de segurança contra incêndio do edifício.",
+    "link": null
+   },
+   {
+    "q": "O que preciso enviar para o orçamento?",
+    "a": "A arquitetura com plantas de todos os pavimentos e cortes, em DWG, PDF ou RVT, e a classificação de ocupação do edifício, se já houver.",
+    "link": null
+   }
+  ],
+  "outros_h2": "Outros projetos de instalações prediais",
+  "outros_raw": "Hidrossanitário · Elétrica e Sistemas · Gás · Climatização (HVAC) · Piscina",
+  "cta_h2": "Orçamento de projeto de pressurização"
+ },
+ {
+  "slug": "projeto-de-piscina",
+  "title": "Projeto de piscina para condomínios e casas | Intrépida",
+  "meta": "Projeto hidráulico de piscina: filtragem, recirculação, casa de máquinas e aquecimento, para condomínios e residências. Solicite orçamento.",
+  "param": "piscina",
+  "eyebrow": "Instalações prediais",
+  "h1": "Projeto de piscina: filtragem, recirculação e aquecimento",
+  "sub": "Casa de máquinas, bombas, filtros e tubulações dimensionados para água limpa, uso seguro e manutenção simples, em condomínios e residências.",
+  "cta": "Solicitar orçamento de projeto de piscina",
+  "hero_img": 2,
+  "hero_alt_ilustr": "Ilustração de casa de máquinas de piscina com bomba e filtro (imagem ilustrativa)",
+  "entregas_h2": "O que entregamos",
+  "entregas_intro": "O sistema hidráulico completo da piscina:",
+  "entregas": [
+   "Dimensionamento do filtro e do conjunto motobomba",
+   "Tubulações de sucção, retorno e dreno",
+   "Dispositivos de sucção com proteção contra aprisionamento",
+   "Layout da casa de máquinas",
+   "Aquecimento: solar, bomba de calor ou trocador de calor",
+   "Interface com os projetos elétrico e hidrossanitário",
+   "Memorial, plantas, detalhes e quantitativos",
+   "ART do projeto e, quando contratado, modelo BIM"
+  ],
+  "quem_h2": "Para quem é e quando contratar",
+  "quem": [
+   {
+    "t": "Residencial multifamiliar",
+    "d": "Piscinas das áreas de lazer, com uso intenso e manutenção pelo condomínio. Contrate junto com a arquitetura do lazer."
+   },
+   {
+    "t": "Loteamento e clube",
+    "d": "Piscinas de clubes e áreas comuns de condomínios horizontais."
+   },
+   {
+    "t": "Residência",
+    "d": "Casas com piscina, aquecimento e hidromassagem."
+   }
+  ],
+  "normas_h2": "Normas e segurança",
+  "normas_txt": "Piscina não passa por concessionária, mas segue norma própria, com regras de circulação da água e de segurança nos pontos de sucção.",
+  "normas": [
+   "ABNT NBR 10339 — piscina: projeto, execução e manutenção"
+  ],
+  "orgaos": null,
+  "integracao": null,
+  "bim_h2": "Piscina em BIM",
+  "bim_txt": "Bombas, filtros e tubulações modelados na casa de máquinas, com espaço de acesso para manutenção conferido no modelo.",
+  "bim_imgs": [],
+  "bim_raw": "",
+  "faq_h2": "Perguntas sobre projeto de piscina",
+  "faq": [
+   {
+    "q": "Por que a piscina precisa de projeto próprio?",
+    "a": "Porque a água precisa passar pelo filtro no tempo certo para continuar limpa, e os pontos de sucção precisam de proteção para evitar acidentes. Sem projeto, é comum bomba mal dimensionada, água turva e manutenção cara.",
+    "link": null
+   },
+   {
+    "q": "Dá para aquecer a piscina com energia solar?",
+    "a": "Sim. O aquecimento solar pode ser ligado ao sistema de filtragem. O projeto compara as opções de aquecimento e dimensiona os coletores.",
+    "link": null
+   },
+   {
+    "q": "Quando devo contratar?",
+    "a": "Junto com a arquitetura da área de lazer. A casa de máquinas precisa de espaço, acesso e ventilação.",
+    "link": null
+   },
+   {
+    "q": "O que preciso enviar para o orçamento?",
+    "a": "A planta da área de lazer com as dimensões da piscina, em DWG, PDF ou RVT, e se haverá aquecimento, hidromassagem ou cascata.",
+    "link": null
+   }
+  ],
+  "outros_h2": "Outros projetos de instalações prediais",
+  "outros_raw": "Hidrossanitário · Elétrica e Sistemas · Gás · Climatização (HVAC) · Pressurização de escadas",
+  "cta_h2": "Orçamento de projeto de piscina"
+ },
+ {
+  "slug": "infraestrutura-de-saneamento",
+  "title": "Projeto de infraestrutura de saneamento | Intrépida",
+  "meta": "Projetos de redes de água, esgoto e drenagem pluvial para loteamentos e condomínios, nos padrões da concessionária e da prefeitura. Peça orçamento.",
+  "param": "saneamento",
+  "eyebrow": "Infraestrutura urbana",
+  "h1": "Projeto de infraestrutura de saneamento para loteamentos e condomínios",
+  "sub": "Redes de água, esgoto e drenagem pluvial nos padrões da concessionária e da prefeitura, sob a direção técnica de um engenheiro civil sanitarista.",
+  "cta": "Solicitar orçamento de infraestrutura de saneamento",
+  "hero_img": null,
+  "hero_alt_ilustr": "Vista aérea do Bosque dos Ipês em construção, empreendimento da RNI em Campo Grande/MS",
+  "entregas_h2": "O que entregamos",
+  "entregas_intro": "As redes que ligam o empreendimento ao sistema público:",
+  "entregas": [
+   "Rede de distribuição de água e ligações prediais",
+   "Rede coletora de esgoto e ligações prediais",
+   "Drenagem pluvial: sarjetas, bocas de lobo, galerias e lançamento",
+   "Interligação com as redes públicas existentes",
+   "Elevatórias e reservatórios, quando necessários",
+   "Plantas, perfis longitudinais, detalhes, memorial e quantitativos",
+   "ART do projeto"
+  ],
+  "quem_h2": "Para quem é e quando contratar",
+  "quem": [
+   {
+    "t": "Loteamento",
+    "d": "As redes de água, esgoto e drenagem fazem parte da aprovação do loteamento na prefeitura e na concessionária. Contrate logo após o projeto urbanístico."
+   },
+   {
+    "t": "Condomínios e conjuntos com vários blocos",
+    "d": "As redes internas levam água, esgoto e chuva de cada bloco até o ponto de ligação com a rede pública."
+   },
+   {
+    "t": "Extensão da rede pública",
+    "d": "Quando a rede da rua não atende o empreendimento, a concessionária pode exigir projeto de extensão ou reforço. Melhor saber disso na viabilidade."
+   }
+  ],
+  "normas_h2": "Normas e aprovações",
+  "normas_txt": "A concessionária de saneamento analisa as redes de água e esgoto. A drenagem costuma ser analisada pela prefeitura, com diretrizes próprias de cada município.",
+  "normas": [
+   "ABNT NBR 12218 — projeto de rede de distribuição de água para abastecimento público",
+   "ABNT NBR 9649 — projeto de redes coletoras de esgoto sanitário",
+   "Diretrizes e cadernos de encargos da concessionária e da prefeitura"
+  ],
+  "orgaos": "Concessionária de saneamento (em Minas Gerais, a COPASA, na maior parte das cidades) e prefeitura municipal",
+  "integracao": null,
+  "bim_h2": "Redes compatibilizadas com o empreendimento",
+  "bim_txt": "As redes são traçadas com a topografia, o projeto urbanístico e as instalações das edificações. Cotas, interferências e sequência de obra ficam resolvidas no projeto.",
+  "bim_imgs": [],
+  "bim_raw": "",
+  "faq_h2": "Perguntas sobre infraestrutura de saneamento",
+  "faq": [
+   {
+    "q": "O que é um projeto de infraestrutura de saneamento?",
+    "a": "É o projeto das redes que abastecem de água, coletam o esgoto e escoam a chuva de um loteamento ou conjunto de edifícios, até a ligação com o sistema público.",
+    "link": null
+   },
+   {
+    "q": "Quem aprova o projeto?",
+    "a": "A concessionária de saneamento analisa as redes de água e esgoto. A drenagem costuma ser analisada pela prefeitura. Cada município tem as suas diretrizes.",
+    "link": null
+   },
+   {
+    "q": "O que é a viabilidade técnica da concessionária?",
+    "a": "É a resposta da concessionária sobre a capacidade de atender o empreendimento e as condições para a ligação. Ela orienta o projeto e deve ser pedida no início.",
+    "link": null
+   },
+   {
+    "q": "Por que contratar um engenheiro sanitarista para as redes?",
+    "a": "Porque saneamento é a especialidade da engenharia sanitária. O diretor técnico da Intrépida, Carlos Alberto Grope, é engenheiro civil sanitarista.",
+    "link": null
+   },
+   {
+    "q": "O que preciso enviar para o orçamento?",
+    "a": "O levantamento topográfico, o projeto urbanístico ou a implantação, o número de lotes ou unidades e as diretrizes da concessionária e da prefeitura, se já tiver.",
+    "link": null
+   }
+  ],
+  "outros_h2": "Outros serviços",
+  "outros_raw": "aqui o grupo tem 1 item; listar os 2 de Eficiência e sustentabilidade + Hidrossanitário",
+  "cta_h2": "Orçamento de projeto de infraestrutura de saneamento"
+ },
+ {
+  "slug": "reuso-de-agua-pluvial",
+  "title": "Projeto de aproveitamento de água de chuva | Intrépida",
+  "meta": "Projeto de reúso de água pluvial: captação, filtragem, reservatório e rede não potável para descargas e irrigação, conforme a NBR 15527. Peça orçamento.",
+  "param": "reuso-pluvial",
+  "eyebrow": "Eficiência e sustentabilidade",
+  "h1": "Projeto de aproveitamento de água de chuva (reúso pluvial)",
+  "sub": "Captação, filtragem, reservação e distribuição da água de chuva para descargas, irrigação e lavagem, com rede separada da água potável.",
+  "cta": "Solicitar orçamento de reúso de água pluvial",
+  "hero_img": null,
+  "hero_alt_ilustr": "Ilustração de sistema de captação de água de chuva com calha, filtro e reservatório (imagem ilustrativa)",
+  "entregas_h2": "O que entregamos",
+  "entregas_intro": "O sistema completo, do telhado ao ponto de uso:",
+  "entregas": [
+   "Estudo de chuva e de demanda não potável para dimensionar o reservatório",
+   "Captação em coberturas, calhas e condutores",
+   "Filtro e descarte das primeiras águas",
+   "Reservatório, bombeamento e rede não potável",
+   "Identificação e sinalização da rede não potável",
+   "Integração com o projeto hidrossanitário",
+   "Memorial, plantas, detalhes e quantitativos",
+   "ART do projeto e, quando contratado, modelo BIM"
+  ],
+  "quem_h2": "Para quem é e quando contratar",
+  "quem": [
+   {
+    "t": "Residencial multifamiliar",
+    "d": "Água de chuva nas descargas e na irrigação das áreas comuns diminui o consumo de água tratada do condomínio."
+   },
+   {
+    "t": "Loteamento e condomínio",
+    "d": "Em muitos municípios, a captação ou a retenção de água de chuva é exigência para aprovar o empreendimento. O projeto atende à regra local."
+   },
+   {
+    "t": "Comercial e galpões",
+    "d": "Prédios com grande área de cobertura têm muita água para captar e uso não potável alto."
+   }
+  ],
+  "normas_h2": "Normas e legislação",
+  "normas_txt": "O sistema segue as normas da ABNT e a legislação do município, que em muitos casos define volumes mínimos de captação ou de retenção.",
+  "normas": [
+   "ABNT NBR 15527 — aproveitamento de água de chuva de coberturas para fins não potáveis",
+   "ABNT NBR 16783 — uso de fontes alternativas de água não potável em edificações",
+   "ABNT NBR 5626 — separação entre água potável e não potável"
+  ],
+  "orgaos": null,
+  "integracao": null,
+  "bim_h2": "Reúso pluvial em BIM",
+  "bim_txt": "No modelo, a rede não potável fica separada e identificada desde o reservatório até cada ponto de uso. Isso evita ligação cruzada com a água potável na obra.",
+  "bim_imgs": [],
+  "bim_raw": "",
+  "faq_h2": "Perguntas sobre aproveitamento de água de chuva",
+  "faq": [
+   {
+    "q": "Qual é a diferença entre reúso e aproveitamento de água de chuva?",
+    "a": "Aproveitamento usa a água de chuva captada nas coberturas. Reúso, em sentido estrito, é tratar e usar de novo águas já utilizadas no edifício. Este serviço trata da água de chuva.",
+    "link": null
+   },
+   {
+    "q": "A água de chuva pode ser usada para beber?",
+    "a": "Não. O uso é não potável: descargas, irrigação e lavagem de pisos e veículos. Por isso a rede é separada e sinalizada.",
+    "link": null
+   },
+   {
+    "q": "Vale a pena no meu empreendimento?",
+    "a": "Depende das chuvas da cidade, da área de cobertura e do consumo não potável. O projeto calcula o volume aproveitável antes de você decidir.",
+    "link": null
+   },
+   {
+    "q": "O que preciso enviar para o orçamento?",
+    "a": "A arquitetura com a planta de cobertura e a implantação, em DWG, PDF ou RVT, o número de unidades e os usos previstos para a água.",
+    "link": null
+   }
+  ],
+  "outros_h2": "Outros projetos de eficiência e sustentabilidade",
+  "outros_raw": "Aquecimento solar + Hidrossanitário",
+  "cta_h2": "Orçamento de projeto de reúso de água pluvial"
+ },
+ {
+  "slug": "aquecimento-solar",
+  "title": "Projeto de aquecimento solar de água | Intrépida",
+  "meta": "Projeto de aquecimento solar para edifícios, casas e piscinas: coletores, reservatórios térmicos e rede de água quente, em 2D ou BIM. Solicite orçamento.",
+  "param": "aquecimento-solar",
+  "eyebrow": "Eficiência e sustentabilidade",
+  "h1": "Projeto de aquecimento solar de água",
+  "sub": "Coletores, reservatórios térmicos, aquecimento auxiliar e rede de água quente dimensionados pelo consumo, em sistemas individuais ou coletivos.",
+  "cta": "Solicitar orçamento de aquecimento solar",
+  "hero_img": 3,
+  "hero_alt_ilustr": "Ilustração de coletores solares na cobertura de um edifício (imagem ilustrativa)",
+  "entregas_h2": "O que entregamos",
+  "entregas_intro": "Do coletor ao chuveiro:",
+  "entregas": [
+   "Cálculo da demanda de água quente",
+   "Dimensionamento da área de coletores e do volume dos reservatórios térmicos",
+   "Aquecimento auxiliar elétrico ou a gás",
+   "Posição dos coletores na cobertura: orientação, inclinação e sombreamento",
+   "Rede de água quente e isolamento térmico",
+   "Integração com os projetos hidrossanitário e de piscina",
+   "Memorial, plantas, detalhes e quantitativos",
+   "ART do projeto e, quando contratado, modelo BIM"
+  ],
+  "quem_h2": "Para quem é e quando contratar",
+  "quem": [
+   {
+    "t": "Residencial multifamiliar",
+    "d": "Sistema coletivo ou individual por unidade. A escolha muda cobertura, shafts e medição, por isso deve ser feita cedo."
+   },
+   {
+    "t": "Loteamento e casas em série",
+    "d": "Sistemas individuais por casa, padronizados para a obra em série."
+   },
+   {
+    "t": "Comercial e residência",
+    "d": "Casas, hotéis, academias e clínicas com consumo alto de água quente."
+   }
+  ],
+  "normas_h2": "Normas e exigências",
+  "normas_txt": "O projeto segue as normas da ABNT e atende às exigências de aquecimento solar do seu programa habitacional ou contrato de financiamento, quando houver.",
+  "normas": [
+   "ABNT NBR 15569 — sistema de aquecimento solar de água em circuito direto: projeto e instalação",
+   "ABNT NBR 5626 — sistemas prediais de água fria e água quente"
+  ],
+  "orgaos": null,
+  "integracao": null,
+  "bim_h2": "Aquecimento solar em BIM",
+  "bim_txt": "Reservatórios e coletores pesam e ocupam a cobertura. No modelo, posição, estrutura e rede de água quente são compatibilizadas antes da obra.",
+  "bim_imgs": [
+   3
+  ],
+  "bim_raw": "13.2, imagem 3.",
+  "faq_h2": "Perguntas sobre aquecimento solar",
+  "faq": [
+   {
+    "q": "Como funciona o aquecimento solar de água?",
+    "a": "Coletores na cobertura aquecem a água com a energia do sol, e reservatórios térmicos guardam a água quente. Em dias nublados, um sistema auxiliar elétrico ou a gás completa o aquecimento.",
+    "link": null
+   },
+   {
+    "q": "Individual ou coletivo: qual é melhor no meu prédio?",
+    "a": "Depende da área de cobertura, do número de unidades e de como o condomínio vai medir o consumo. O projeto compara as opções antes da decisão.",
+    "link": null
+   },
+   {
+    "q": "Dá para aquecer a piscina também?",
+    "a": "Sim, com coletores próprios ligados ao sistema de filtragem. Veja também o projeto de piscina.",
+    "link": "/servicos/projeto-de-piscina/"
+   },
+   {
+    "q": "O que preciso enviar para o orçamento?",
+    "a": "A arquitetura com a planta de cobertura, em DWG, PDF ou RVT, o número de unidades e de banheiros por unidade e se haverá piscina aquecida.",
+    "link": null
+   }
+  ],
+  "outros_h2": "Outros projetos de eficiência e sustentabilidade",
+  "outros_raw": "Reúso de água pluvial + Hidrossanitário + Piscina",
+  "cta_h2": "Orçamento de projeto de aquecimento solar"
+ }
+]
