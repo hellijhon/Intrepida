@@ -427,7 +427,7 @@ def ficha(rows):
 def rt_foto(full=False):
     if DADOS['foto_rt']:
         return f'<div class="c17-rt__foto">{picture(DADOS["foto_rt"], "Carlos Alberto Grope, diretor técnico da Intrépida Engenharia e Projetos", "200px")}</div>'
-    return f'<div class="c17-rt__foto" data-placeholder="foto-rt">{ph("Placeholder · retrato do RT a fotografar")}<img src="/assets/img/marca/logo-intrepida-simbolo.svg" alt="" width="48" height="76"></div>'
+    return f'<div class="c17-rt__foto" data-placeholder="foto-rt">{ph("FOTO CARLOS")}<img src="/assets/img/marca/logo-intrepida-simbolo.svg" alt="" width="48" height="76"></div>'
 
 # ---------------- Mapa de UFs (C24) ----------------
 TILES = [  # cartograma: (UF, coluna, linha) — posição aproximada no território
