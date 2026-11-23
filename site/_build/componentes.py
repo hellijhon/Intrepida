@@ -1,7 +1,7 @@
 """Componentes globais (C01–C24) do site da Intrépida.
 Cada função devolve o HTML de um componente; no Elementor, cada uma vira um template
 global / seção salva com o mesmo código (ver equipe/04-guia-migracao-elementor.md)."""
-import html, json, pathlib, urllib.parse
+import html, json, pathlib, re, urllib.parse
 
 B = pathlib.Path(__file__).resolve().parent
 SITE = B.parent
@@ -348,10 +348,15 @@ def processo(sid, h2='Como trabalhamos', etapas=ETAPAS, bg='', nota=True):
     return f'<section class="sec c10-processo {bg}" id="{sid}" data-componente="C10"><div class="container"><div class="sec-head"><h2>{e(h2)}</h2></div><ol class="reveal">{lis}</ol>{n}</div></section>'
 
 # ---------------- C11 Galeria ----------------
+def bim_full(n):
+    """Maior versão JPEG disponível da imagem BIM n (algumas não chegam a 1800 px)."""
+    ws = sorted(int(m.group(1)) for f in (B.parent / 'assets' / 'img' / 'bim').glob(f'bim-{n:02d}-*.jpg') if (m := re.search(r'-(\d+)\.jpg$', f.name)))
+    return f'/assets/img/bim/bim-{n:02d}-{ws[-1]}.jpg' if ws else ''
+
 def galeria(nums, grupo_lb, scroll=False, big=False):
     lid = f'gal-{grupo_lb}'
     lis = ''.join(
-        f'<li><button type="button" data-lb="{grupo_lb}" data-full="/assets/img/bim/bim-{n:02d}-1800.jpg" data-alt="{e(bim_alt(n))}" data-cap="{e(bim_cap(n))}" aria-label="Ampliar: {e(bim_cap(n))}">'
+        f'<li><button type="button" data-lb="{grupo_lb}" data-full="{bim_full(n)}" data-alt="{e(bim_alt(n))}" data-cap="{e(bim_cap(n))}" aria-label="Ampliar: {e(bim_cap(n))}">'
         f'{picture(f"bim/bim-{n:02d}", bim_alt(n), "(min-width: 1025px) 280px, 45vw", max_default=480)}<span class="cap">{e(bim_cap(n))}</span></button></li>' for n in nums)
     cls = 'c11-galeria' + (' c11-galeria--scroll' if scroll else '') + (' c11-galeria--8' if big else '')
     dots = f'<div class="dots" data-dots="{lid}" aria-hidden="true"></div>' if scroll else ''

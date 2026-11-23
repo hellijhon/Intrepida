@@ -13,6 +13,7 @@
 - **Fotos de obras e logos de clientes:** uso liberado desde já.
 - **Foto do responsável técnico:** deixar marcação/placeholder sinalizado até chegar a foto real (não gerar por IA).
 - Status (21/11/2026): ciclo completo (contexto → QA) concluído; protótipo HTML em `site/` aprovado pelo QA para apresentação. Pacote para o cliente em `entrega-cliente/` (apresentação PDF, checklist de pendências PDF, protótipo .zip). Publicação no WordPress aguarda as pendências CL-01 a CL-06 de `equipe/06-qa-final.md`.
+- Link de visualização para o cliente (23/11/2026): https://hellijhon.github.io/Intrepida/ — branch `gh-pages` do repositório hellijhon/Intrepida, gerada por `python3 site/_build/gerar_preview.py preview-cliente /Intrepida` (pasta `preview-cliente/` tem o próprio git, com push para `gh-pages`). Bloqueado para o Google (noindex + robots).
 - Contatos: telefone (31) 3070-6568, WhatsApp (31) 99649-8629, e-mail carlos@intrepidaengenharia.com.br (com o link `mailto` corrigido).
 
 # Equipe de criação de sites — fluxo de trabalho

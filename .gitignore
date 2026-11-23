@@ -14,3 +14,6 @@ entrega-cliente/*.zip
 # Python
 __pycache__/
 *.pyc
+
+# Cópia do site para visualização do cliente (repositório próprio)
+preview-cliente/
