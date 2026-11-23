@@ -1,0 +1,20 @@
+{
+ "name": "Intrépida Engenharia e Projetos",
+ "short_name": "Intrépida",
+ "lang": "pt-BR",
+ "icons": [
+  {
+   "src": "/intrepida-prototipo/assets/img/marca/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "/intrepida-prototipo/assets/img/marca/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  }
+ ],
+ "theme_color": "#0B3859",
+ "background_color": "#ffffff",
+ "display": "browser"
+}

@@ -1,0 +1,3 @@
+/quem-somos/ /sobre/ 301
+/trabalhos-desenvolvidos/ /projetos/ 301
+/nossos-clientes/ /projetos/#clientes 301
