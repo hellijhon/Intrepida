@@ -161,7 +161,7 @@
       ativos.innerHTML = '';
       [[uf, 'uf', UFN[uf], uf], [cli, 'cliente', cli, cli]].forEach(function (f) {
         if (!f[0]) return; var b = d.createElement('button'); b.type = 'button'; b.className = 'chip';
-        b.setAttribute('aria-label', f[3] + ', remover filtro: ' + f[2]); b.innerHTML = f[3] + ' <svg class="icon" aria-hidden="true"><use href="/intrepida-prototipo/assets/img/icons.svg#i-close"/></svg>';
+        b.setAttribute('aria-label', f[3] + ', remover filtro: ' + f[2]); b.innerHTML = f[3] + ' <svg class="icon" aria-hidden="true"><use href="/Intrepida/assets/img/icons.svg#i-close"/></svg>';
         b.addEventListener('click', function () { (f[1] === 'uf' ? selUf : selCli).value = ''; apply(true); countEl.focus(); });
         ativos.appendChild(b);
       });
@@ -328,7 +328,7 @@
         list.innerHTML = '';
         files.forEach(function (f, i) {
           var li = d.createElement('li');
-          li.innerHTML = '<svg class="icon icon--sm" aria-hidden="true"><use href="/intrepida-prototipo/assets/img/icons.svg#i-file"/></svg><span class="nm"></span><button type="button"></button>';
+          li.innerHTML = '<svg class="icon icon--sm" aria-hidden="true"><use href="/Intrepida/assets/img/icons.svg#i-file"/></svg><span class="nm"></span><button type="button"></button>';
           $('.nm', li).textContent = f.name + ' anexado'; var b = $('button', li); b.textContent = 'Remover'; b.setAttribute('aria-label', 'Remover ' + f.name);
           b.addEventListener('click', function () { files.splice(i, 1); render(); announce(f.name + ' removido'); });
           list.appendChild(li);
@@ -364,7 +364,7 @@
         var tipo = form.dataset.form;
         track('form_submit', { form_label: tipo });
         store.sset('intrepida_form', tipo);
-        location.href = '/intrepida-prototipo/obrigado/?origem=' + tipo;
+        location.href = '/Intrepida/obrigado/?origem=' + tipo;
       }, 900);
     });
   });
