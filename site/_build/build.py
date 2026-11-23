@@ -23,7 +23,7 @@ def home():
   <h1>Projetos de instalações e infraestrutura para incorporadoras e construtoras</h1>
   <p class="lead">Hidrossanitário, elétrica, gás e mais seis disciplinas, em 2D ou BIM, compatibilizadas para reduzir retrabalho e pensadas para aprovar nas concessionárias.</p>
   {btns(('Solicitar orçamento', '/contato/', 'primary'), ('Falar no WhatsApp', wa(WA['home']), 'wa-light'))}
-  <p class="c03-hero__proof"><span>{ic('check')}24 clientes, entre construtoras e incorporadoras</span><span class="sep" aria-hidden="true">·</span><span>{ic('pin')}Empreendimentos em 6 estados</span></p>
+  <p class="c03-hero__proof"><span>{ic('check')}+24 construtoras e incorporadoras atendidas</span><span class="sep" aria-hidden="true">·</span><span>{ic('pin')}Presença em 8 estados</span></p>
  </div></div>
  <p class="c03-hero__credit">Mirante São Lucas · UNENCO · Belo Horizonte/MG</p>
 </section>'''
@@ -59,17 +59,17 @@ def home():
     h11 = depoimentos('h-11', 'O que dizem os clientes')
     faqs = [
         ('Vocês atendem empreendimentos de grande porte?', 'Sim. O maior empreendimento do nosso portfólio tem 1.800 unidades: o Residencial Monte Carlo, da Habit Construtora, em Cabo Frio/RJ. Os demais vão de 142 a 368 unidades, para construtoras e incorporadoras como MRV, Direcional, RNI e Precon.'),
-        ('Vocês atendem a minha cidade?', 'Temos empreendimentos em seis estados: MG, DF, SP, RJ, MS e SC. Para outras localidades, envie o pedido de orçamento com a cidade do empreendimento e confirmamos o atendimento.'),
+        ('Vocês atendem a minha cidade?', 'Já atendemos oito estados: MG, DF, SP, RJ, MS, SC, RS e PB. Para outras localidades, envie o pedido de orçamento com a cidade do empreendimento e confirmamos o atendimento.'),
         ('Qual é o prazo de um projeto?', 'Depende do porte, das disciplinas contratadas e da fase em que a arquitetura está. Por isso o prazo de cada etapa vem descrito na proposta, antes de você contratar.'),
         ('Vocês trabalham no padrão BIM da minha empresa?', 'Entregamos em BIM (modelo 3D) ou em 2D. Se a sua empresa tem template, padrão de nomenclatura ou formato próprio, envie junto com o pedido de orçamento: a compatibilidade fica definida na proposta.'),
         ('O que preciso enviar para receber o orçamento?', 'O projeto de arquitetura (DWG, PDF ou RVT), a implantação, o número de unidades ou a área construída, a cidade e as disciplinas de que você precisa. Ainda não tem tudo? Envie o que tiver e completamos juntos.'),
         ('A Intrépida executa a obra?', 'Não. A Intrépida faz projetos de engenharia: instalações prediais e infraestrutura. A execução fica com a sua construtora, que recebe um projeto completo e compatibilizado.')]
     h12, ld12 = faq('h-12', 'Dúvidas de quem contrata projetos', faqs, 'bg-light')
-    body = (hero + numeros('h-03') + logos('h-04', 'Quem já contratou nossos projetos', '24 clientes atendidos. Alguns deles:') + servicos_grupos('h-05')
+    body = (hero + numeros('h-03') + logos('h-04', 'Quem já contratou nossos projetos', '+24 construtoras e incorporadoras atendidas. Algumas delas:') + servicos_grupos('h-05')
             + h06 + h07 + h08 + processo('h-09', bg='bg-blue-50 bg-grid') + h10 + h11 + h12
             + cta_form('h-13', 'Conte sobre o seu empreendimento e receba uma proposta', WA['home']))
     pub('/', documento('/', 'Projetos de instalações prediais e BIM em BH | Intrépida',
-        'Projetos hidrossanitários, elétricos, de gás e de infraestrutura, em 2D e BIM, para incorporadoras. 24 clientes em 6 estados. Solicite orçamento.',
+        'Projetos hidrossanitários, elétricos, de gás e de infraestrutura, em 2D e BIM, para incorporadoras. +24 clientes em 8 estados. Solicite orçamento.',
         body, wa_msg=WA['padrao'], lds=[ld12, {'@context': 'https://schema.org', '@type': 'WebSite', 'name': 'Intrépida Engenharia e Projetos', 'url': DOMINIO + '/'}]))
 
 def depoimentos(sid, h2):
@@ -84,7 +84,7 @@ def depoimentos(sid, h2):
 def hub():
     bc, ldbc = breadcrumb([('Serviços', None)])
     hero = hero_interno('sh-02', 'Serviços', 'Projetos de instalações prediais e infraestrutura em Belo Horizonte',
-        'Nove disciplinas em 2D e BIM para incorporadoras, construtoras e arquitetos, com empreendimentos em seis estados.',
+        'Nove disciplinas em 2D e BIM para incorporadoras, construtoras e arquitetos, com atuação em oito estados.',
         btns(('Solicitar orçamento', '/contato/', 'primary'), ('Falar no WhatsApp', wa(WA['hub']), 'wa')), fig_bim(5, eager=True), bc=bc, wide=True)
     chips = f'''<nav class="sec--tight" id="sh-03" aria-label="Ir para o grupo de serviços" style="padding-block:0 1rem"><div class="container"><div class="chips">
  <a class="chip" href="#sh-04">{ic('building', 'icon--sm')}Instalações prediais</a><a class="chip" href="#sh-05">{ic('saneamento', 'icon--sm')}Infraestrutura urbana</a><a class="chip" href="#sh-06">{ic('reuso', 'icon--sm')}Eficiência e sustentabilidade</a></div></div></nav>'''
@@ -256,7 +256,7 @@ def projetos():
   <div class="btn-row"><button class="btn btn--secondary" type="button" data-limpar>Limpar filtros</button><a class="btn" href="/contato/">Falar sobre meu projeto</a></div></div>
 </div></section>'''
     grid, lista = mapa_ufs(True)
-    pj07 = sec('pj-07', 'C24', f'<div class="c24-mapa"><div><h2>Onde já projetamos</h2><p class="lead">Clique em um estado para ver os projetos.</p>{lista}</div><div>{grid}</div></div>', 'sec bg-blue-50')
+    pj07 = sec('pj-07', 'C24', f'<div class="c24-mapa"><div><h2>Onde já atuamos</h2><p class="lead">Clique em um estado para ver os projetos.</p>{lista}</div><div>{grid}</div></div>', 'sec bg-blue-50')
     body = (hero + numeros('pj-03') + pj05 + logos('clientes', 'Clientes atendidos', '24 empresas, entre construtoras e incorporadoras, já contrataram projetos da Intrépida.', link=None, todos=True, bg='bg-light')
             + pj07 + cta_botoes('pj-08', 'Seu empreendimento pode ser o próximo desta lista', 'Conte o porte, a cidade e as disciplinas de que você precisa. A proposta vem com escopo, prazo e valor.', WA['projetos']))
     body = body.replace('id="clientes" data-componente="C06"', 'id="clientes" data-componente="C06" data-secao="PJ-06"')
@@ -332,7 +332,7 @@ def sobre():
         f'<div style="position:relative">{ph("Imagem provisória · fotografar escritório/equipe")}{fig_foto("projetos/bosque-dos-ipes", "Vista aérea do Bosque dos Ipês em construção, empreendimento da RNI em Campo Grande/MS", "Bosque dos Ipês · RNI · Campo Grande/MS", eager=True)}</div>', bc=bc)
     txt = ['Somos uma empresa técnica de Belo Horizonte dedicada a projetos de instalações residenciais, comerciais e de redes de infraestrutura urbana.',
            'Trabalhamos em 2D e em BIM, com informação para a execução, a implantação, a manutenção e a gestão do empreendimento. O objetivo é que a obra receba um projeto compatível entre as disciplinas e pronto para a análise das concessionárias.',
-           'Nosso portfólio reúne 18 empreendimentos em seis estados, de 142 a 1.800 unidades. Ao todo, 24 empresas, entre construtoras e incorporadoras, já contrataram nossos projetos.',
+           'Nosso portfólio reúne 18 empreendimentos, de 142 a 1.800 unidades, e já atendemos oito estados. Mais de 24 construtoras e incorporadoras já contrataram nossos projetos.',
            'Intrépida quer dizer corajosa. Para nós, isso significa assumir empreendimentos grandes e complexos com método, cálculo e responsabilidade técnica.']
     tl = cond('SB-03', 'Linha do tempo', 'ano de fundação e marcos com data')
     sb03 = sec('sb-03', 'C09', f'<div class="split split--top"><div><h2>Quem é a Intrépida</h2></div><div class="reveal">{"".join(f"<p class=lead>{e(t)}</p>" if k == 0 else f"<p>{e(t)}</p>" for k, t in enumerate(txt))}{tl}</div></div>')
@@ -343,7 +343,7 @@ def sobre():
  {cond('SB-04', 'Mini-bio ampliada', 'formação, trajetória e especialidades')}{lk}</div></div>''', 'sec bg-light')
     sb05 = cond('SB-05', 'Equipe', 'nomes, funções e fotos reais')
     grid, lista = mapa_ufs(False)
-    sb06 = f'''<section class="sec" id="sb-06" data-componente="C05+C24"><div class="container"><div class="sec-head"><h2>Onde já projetamos</h2></div></div>
+    sb06 = f'''<section class="sec" id="sb-06" data-componente="C05+C24"><div class="container"><div class="sec-head"><h2>Onde já atuamos</h2></div></div>
  {numeros('sb-06-numeros', light=True).replace('class="c05-numeros', 'class="c05-numeros').replace('<section', '<div').replace('</section>', '</div>')}
  <div class="container" style="margin-top:3rem"><div class="c24-mapa"><div>{lista}</div><div>{grid}</div></div></div></section>'''
     dados = [('Razão social:', e(DADOS['razao_social']) if DADOS['razao_social'] else None), ('Nome fantasia:', 'Intrépida Engenharia e Projetos'),

@@ -279,8 +279,8 @@ def fig_foto(key, alt, cap=None, eager=False, sizes='(min-width: 1025px) 560px, 
     return f'<figure class="fig-photo">{picture(key, alt, sizes, eager)}{f"<figcaption>{e(cap)}</figcaption>" if cap else ""}</figure>'
 
 # ---------------- C05 Números ----------------
-NUMEROS = [('24', 'clientes atendidos, entre construtoras e incorporadoras'), ('18', 'empreendimentos no portfólio'),
-           ('6', 'estados: MG, DF, SP, RJ, MS e SC'), ('+5.800', 'unidades nos empreendimentos do portfólio')]
+NUMEROS = [('+24', 'construtoras e incorporadoras atendidas'), ('+18', 'empreendimentos no portfólio'),
+           ('8', 'estados atendidos')]  # decisão do usuário (23/11/2026)
 def numeros(sid, light=False, h2=None):
     lis = ''.join(f'<li><strong>{n}</strong> <span class="lbl">{e(l)}</span></li>' for n, l in NUMEROS)
     head = f'<h2 class="visually-hidden">Números do portfólio</h2>' if not h2 else ''
@@ -430,33 +430,28 @@ def rt_foto(full=False):
     return f'<div class="c17-rt__foto" data-placeholder="foto-rt">{ph("FOTO CARLOS")}<img src="/assets/img/marca/logo-intrepida-simbolo.svg" alt="" width="48" height="76"></div>'
 
 # ---------------- Mapa de UFs (C24) ----------------
-TILES = [  # cartograma: (UF, coluna, linha) — posição aproximada no território
- ('RR', 3, 0), ('AP', 5, 0), ('AM', 2, 1), ('PA', 4, 1), ('MA', 5, 1), ('CE', 6, 1), ('AC', 0, 2), ('RO', 1, 2), ('TO', 4, 2), ('PI', 5, 2), ('RN', 6, 2),
- ('MT', 2, 3), ('GO', 3, 3), ('DF', 4, 3), ('BA', 5, 3), ('PB', 6, 3), ('MS', 2, 4), ('MG', 4, 4), ('SE', 5, 4), ('PE', 6, 4),
- ('SP', 3, 5), ('RJ', 4, 5), ('ES', 5, 5), ('AL', 6, 5), ('PR', 3, 6), ('SC', 3, 7), ('RS', 2, 8)]
-UF_NOME = {'MG': 'Minas Gerais', 'DF': 'Distrito Federal', 'SP': 'São Paulo', 'RJ': 'Rio de Janeiro', 'MS': 'Mato Grosso do Sul', 'SC': 'Santa Catarina'}
+UF_NOME = {'MG': 'Minas Gerais', 'DF': 'Distrito Federal', 'SP': 'São Paulo', 'RJ': 'Rio de Janeiro', 'MS': 'Mato Grosso do Sul',
+           'SC': 'Santa Catarina', 'RS': 'Rio Grande do Sul', 'PB': 'Paraíba'}
+UFS_ATENDIDAS = ['MG', 'DF', 'SP', 'RJ', 'MS', 'SC', 'RS', 'PB']  # decisão do usuário (23/11/2026): RS e PB atendidos, sem projeto no portfólio
 def mapa_ufs(interativo):
+    from mapa_brasil import gerar_svg
     cont = {}
     for p in PROJ: cont[p['uf']] = cont.get(p['uf'], 0) + 1
-    cells = {}
-    for uf, c, r in TILES: cells[(c, r)] = uf
-    out = []
-    for r in range(9):
-        for c in range(7):
-            uf = cells.get((c, r))
-            if not uf: out.append('<span class="uf vz"></span>'); continue
-            if uf in cont:
-                t = f'{UF_NOME[uf]}: {cont[uf]} projeto{"s" if cont[uf] > 1 else ""}'
-                out.append(f'<button type="button" class="uf on" data-n="{cont[uf]}" data-uf-go="{uf}" aria-label="{uf}, {e(t)}. Filtrar projetos">{uf}</button>' if interativo
-                           else f'<span class="uf on" data-n="{cont[uf]}" title="{e(t)}">{uf}</span>')
-            else: out.append(f'<span class="uf" aria-hidden="true">{uf}</span>')
-    ordem = ['MG', 'DF', 'SP', 'RJ', 'MS', 'SC']
+    qtd = lambda u: f'{cont[u]} projeto{"s" if cont[u] > 1 else ""} no portfólio' if u in cont else 'Estado atendido'
+    ativos = {u: f'{UF_NOME[u]}: {qtd(u)}' for u in UFS_ATENDIDAS}
+    links = {u: f'/projetos/?uf={u.lower()}' for u in UFS_ATENDIDAS if u in cont} if interativo else {}
+    svg = gerar_svg(ativos, links, 'Mapa do Brasil com os oito estados onde a Intrépida atua: ' + ', '.join(UFS_ATENDIDAS[:-1]) + ' e ' + UFS_ATENDIDAS[-1])
     def li_uf(u):
-        go = f' data-uf-go="{u}"' if interativo else ''
-        return f'<li><a href="/projetos/?uf={u.lower()}"{go}>{UF_NOME[u]}</a><span>{cont[u]} projeto{"s" if cont[u] > 1 else ""}</span></li>'
-    lista = ''.join(li_uf(u) for u in ordem)
-    grid = f'<div class="uf-grid" role="group" aria-label="Mapa do Brasil com os seis estados onde a Intrépida tem projetos: MG, DF, SP, RJ, MS e SC">{"".join(out)}</div>'
-    return grid, f'<ul class="uf-lista">{lista}</ul>'
+        n = f'<span>{cont[u]} projeto{"s" if cont[u] > 1 else ""}</span>' if u in cont else '<span class="uf-lista__at">Estado atendido</span>'
+        if u in cont:
+            go = f' data-uf-go="{u}"' if interativo else ''
+            nome = f'<a href="/projetos/?uf={u.lower()}"{go}>{UF_NOME[u]}</a>'
+        else:
+            nome = f'<span class="uf-lista__nome">{UF_NOME[u]}</span>'
+        return f'<li><span class="uf-lista__pin" aria-hidden="true"></span>{nome}{n}</li>'
+    lista = ''.join(li_uf(u) for u in UFS_ATENDIDAS)
+    leg = '<p class="mapa-br__leg"><span class="uf-lista__pin" aria-hidden="true"></span>Presença da Intrépida</p>'
+    return f'<div class="mapa-br__wrap">{svg}{leg}</div>', f'<ul class="uf-lista">{lista}</ul>'
 
 # ---------------- Documento ----------------
 def org_ld():
@@ -465,7 +460,7 @@ def org_ld():
             'telephone': '+55 31 3070-6568', 'email': EMAIL,
             'address': {'@type': 'PostalAddress', 'streetAddress': 'Rua dos Goitacazes, 103, salas 1604 e 1606', 'addressLocality': 'Belo Horizonte',
                         'addressRegion': 'MG', 'postalCode': '30190-910', 'addressCountry': 'BR'},
-            'areaServed': ['MG', 'DF', 'SP', 'RJ', 'MS', 'SC'],
+            'areaServed': ['MG', 'DF', 'SP', 'RJ', 'MS', 'SC', 'RS', 'PB'],
             'contactPoint': {'@type': 'ContactPoint', 'telephone': '+55 31 99649-8629', 'contactType': 'sales', 'availableLanguage': 'pt-BR'}}
 
 def documento(path, title, meta, body, ativo='', wa_msg=WA['padrao'], noindex=False, lds=(), sem_c19=False, sem_c20=False, og_img=None, orc='/contato/'):

@@ -10,6 +10,7 @@
 - **Plataforma: WordPress** (com Elementor, como no site antigo).
 - **Endereço:** o do site antigo — Rua dos Goitacazes, 103, Salas 1604 e 1606, Centro, Belo Horizonte/MG, CEP 30190-910.
 - **Números:** manter os do site antigo (unidades por projeto como estavam). Não inventar números novos (anos de mercado, m², etc.); contagens tiradas do material real (24 clientes, 18 empreendimentos, 6 UFs) podem ser usadas.
+- **Números (atualizado em 23/11/2026, substitui a barra anterior):** "+24 construtoras e incorporadoras atendidas", "+18 empreendimentos no portfólio", "8 estados atendidos" (MG, DF, SP, RJ, MS, SC + **RS e PB**, que são atendidos mas não têm projeto no portfólio). O "+5.800 unidades" saiu da barra. O mapa de estados (Projetos e Sobre) é um SVG do Brasil com pins laranja, gerado por `site/_build/mapa_brasil.py` a partir da malha do IBGE. O `equipe/03-copy.md` não foi atualizado com essa mudança: o site é a referência.
 - **Fotos de obras e logos de clientes:** uso liberado desde já.
 - **Foto do responsável técnico:** deixar marcação/placeholder sinalizado até chegar a foto real (não gerar por IA).
 - Status (21/11/2026): ciclo completo (contexto → QA) concluído; protótipo HTML em `site/` aprovado pelo QA para apresentação. Pacote para o cliente em `entrega-cliente/` (apresentação PDF, checklist de pendências PDF, protótipo .zip). Publicação no WordPress aguarda as pendências CL-01 a CL-06 de `equipe/06-qa-final.md`.

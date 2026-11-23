@@ -316,14 +316,15 @@ body.no-scroll { overflow: hidden; }
 
 /* ---------- 9. C05 Barra de números ---------- */
 .c05-numeros { background: var(--c-navy-800); color: #fff; }
-.c05-numeros ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); }
+.c05-numeros ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr; }
 .c05-numeros li { padding: var(--s-6) var(--s-4); border-color: rgba(255,255,255,.16); border-style: solid; border-width: 0 0 1px 0; }
-.c05-numeros li:nth-child(odd) { border-right-width: 1px; }
-.c05-numeros li:nth-last-child(-n+2) { border-bottom-width: 0; }
+.c05-numeros li:last-child { border-bottom-width: 0; }
+@media (max-width: 599px) { .c05-numeros li { display: flex; align-items: center; gap: var(--s-5); padding-block: var(--s-5); } .c05-numeros li strong { margin: 0; min-width: 3.2ch; } }
 .c05-numeros strong { display: block; font-family: var(--f-head); font-weight: 800; font-size: var(--fs-num); line-height: 1; letter-spacing: -.02em; color: #fff; margin-bottom: .5rem; }
 .c05-numeros strong::after { content: ""; display: block; width: 28px; height: 3px; margin-top: .6rem; background: var(--c-orange-500); border-radius: 2px; }
 .c05-numeros span.lbl { display: block; font-size: var(--fs-small); color: var(--c-on-dark-muted); line-height: 1.45; max-width: 24ch; }
-@media (min-width: 1025px) { .c05-numeros ul { grid-template-columns: repeat(4, 1fr); } .c05-numeros li { border-width: 0 1px 0 0 !important; padding: var(--s-7) var(--s-6); } .c05-numeros li:last-child { border-right-width: 0 !important; } }
+@media (min-width: 600px) { .c05-numeros ul { grid-template-columns: repeat(3, 1fr); } .c05-numeros li { border-width: 0 1px 0 0 !important; } .c05-numeros li:last-child { border-right-width: 0 !important; } }
+@media (min-width: 1025px) { .c05-numeros li { padding: var(--s-7) var(--s-6); } }
 .c05-numeros--light { background: transparent; color: var(--c-ink); }
 .c05-numeros--light li { border-color: var(--c-gray-200); }
 .c05-numeros--light strong { color: var(--c-navy-800); }
@@ -681,16 +682,30 @@ body.no-scroll { overflow: hidden; }
 /* ---------- 24. C24 Mapa de atuação (cartograma de UFs) ---------- */
 .c24-mapa { display: flex; flex-direction: column; gap: var(--s-6); }
 @media (min-width: 1025px) { .c24-mapa { flex-direction: row; align-items: center; } .c24-mapa > * { flex: 1; } }
-.uf-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 5px; max-width: 420px; margin-inline: auto; }
-.uf-grid .uf { aspect-ratio: 1; border-radius: 6px; background: var(--c-gray-200); color: var(--c-gray-600); font-family: var(--f-head); font-weight: 700; font-size: clamp(.625rem, .55rem + .3vw, .8125rem); display: grid; place-items: center; border: 0; padding: 0; }
-.uf-grid .uf.on { background: var(--c-navy-800); color: #fff; cursor: pointer; position: relative; }
-.uf-grid .uf.on::after { content: attr(data-n); position: absolute; top: -6px; right: -6px; min-width: 20px; height: 20px; border-radius: 10px; background: var(--c-orange-600); color: #fff; font-size: .6875rem; display: grid; place-items: center; padding: 0 4px; border: 2px solid #fff; }
-.uf-grid .uf.on:hover { background: var(--c-blue-600); }
-.uf-grid .vz { visibility: hidden; }
+/* C24 Mapa do Brasil com pins (SVG gerado por _build/mapa_brasil.py a partir da malha do IBGE) */
+.mapa-br__wrap { position: relative; max-width: 640px; margin-inline: auto; width: 100%; padding: clamp(1rem, 3vw, 2rem) clamp(.75rem, 3vw, 2rem) 1.25rem; background-color: #fff; background-image: linear-gradient(var(--c-blue-100) 1px, transparent 1px), linear-gradient(90deg, var(--c-blue-100) 1px, transparent 1px); background-size: 24px 24px; border: 1px solid var(--c-blue-200); border-radius: var(--r-lg); box-shadow: var(--sh-1); }
+.mapa-br { display: block; width: 100%; height: auto; overflow: visible; }
+.mb-uf { fill: #E3E9EF; stroke: #fff; stroke-width: 1.1; stroke-linejoin: round; transition: fill var(--t-fast); }
+.mb-uf.is-on { fill: var(--c-navy-800); }
+.mb-uf.is-link, .mb-pin.is-link { cursor: pointer; }
+.mb-uf.is-link:hover { fill: var(--c-blue-600); }
+.mb-pin__body { fill: var(--c-orange-500); stroke: #fff; stroke-width: 2; filter: drop-shadow(0 3px 4px rgba(6,31,51,.35)); transition: transform var(--t-fast) var(--ease); transform-origin: 0 0; }
+.mb-pin__dot { fill: #fff; pointer-events: none; }
+.mb-pin__uf { font: 800 12px/1 var(--f-head); fill: var(--c-navy-900); paint-order: stroke; stroke: #fff; stroke-width: 3.5px; stroke-linejoin: round; letter-spacing: .02em; pointer-events: none; }
+.mb-pin__s { transform-origin: 0 0; transform-box: view-box; }
+@media (max-width: 767px) { .mb-pin__s { transform: scale(1.55); } }
+.mb-pin__pulse { fill: none; stroke: var(--c-orange-500); stroke-width: 2; opacity: 0; transform-origin: 0 0; transform-box: view-box; animation: mbPulse 2.4s var(--ease) infinite; pointer-events: none; }
+.mb-pin.is-link:hover .mb-pin__body { transform: scale(1.12); fill: var(--c-orange-600); }
+@keyframes mbPulse { 0% { transform: scale(.5); opacity: .9; } 75% { transform: scale(2.2); opacity: 0; } 100% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .mb-pin__pulse { animation: none; opacity: 0; } }
+.mapa-br__leg { display: flex; align-items: center; justify-content: center; gap: .5rem; margin: 1rem 0 0; font-size: var(--fs-small); color: var(--c-gray-600); }
 .uf-lista { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; border-top: 1px solid var(--c-gray-200); }
-.uf-lista li { display: flex; justify-content: space-between; padding: .75rem 0; border-bottom: 1px solid var(--c-gray-200); }
-.uf-lista a { font-weight: 600; text-decoration: none; color: var(--c-navy-800); }
+.uf-lista li { display: flex; align-items: center; gap: .75rem; padding: .8rem 0; border-bottom: 1px solid var(--c-gray-200); }
+.uf-lista li > :last-child { margin-left: auto; color: var(--c-gray-600); font-size: var(--fs-small); }
+.uf-lista a, .uf-lista__nome { font-weight: 600; text-decoration: none; color: var(--c-navy-800); }
 .uf-lista a:hover { text-decoration: underline; color: var(--c-blue-600); }
+.uf-lista .uf-lista__at { color: var(--c-orange-700); font-weight: 600; }
+.uf-lista__pin { flex: none; width: 12px; height: 16px; background: var(--c-orange-500); clip-path: path("M6 16C5 13 0 10 0 6A6 6 0 0 1 12 6C12 10 7 13 6 16Z"); }
 
 /* ---------- 25. C02 Rodapé ---------- */
 .c02-footer { background: var(--c-navy-950); color: var(--c-on-dark-muted); font-size: .9375rem; padding-top: var(--s-8); }
